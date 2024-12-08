@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:backgroundTint="#C3FFFFFF"
+    android:backgroundTintMode="src_over"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".ConvertFragment">
+
+    <TextView
+        android:id="@+id/converter_instruction1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/pastel_orange"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:labelFor="@id/category_spinner"
+        android:text="@string/text_converter_instruction1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="600dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal">
+
+        <Spinner
+            android:id="@+id/category_spinner"
+            android:layout_width="600dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white_smoke"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="5dp"
+            android:contentDescription="@null"
+            android:src="@drawable/outline_arrow_drop_down_circle_24" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/converter_instruction2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/pastel_orange"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/text_converter_instruction2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/converter_instruction3"
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:labelFor="@id/convert_from_spinner"
+            android:text="@string/text_converter_instruction3"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="600dp"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:id="@+id/convert_from_spinner"
+                android:layout_width="600dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#C3FFFFFF"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_marginBottom="5dp"
+                android:contentDescription="@null"
+                android:src="@drawable/outline_arrow_drop_down_circle_24" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/converter_instruction4"
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:labelFor="@id/convert_to_spinner"
+            android:text="@string/text_converter_instruction4"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="600dp"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:id="@+id/convert_to_spinner"
+                android:layout_width="600dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#C3FFFFFF"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_marginBottom="5dp"
+                android:contentDescription="@null"
+                android:src="@drawable/outline_arrow_drop_down_circle_24" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/converter_instruction5"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:labelFor="@id/value_to_convert"
+            android:text="@string/text_converter_instruction5"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/value_to_convert"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/convert_button"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/convert_button"
+            android:textColor="@color/white_smoke"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/reset_button"
+            android:textColor="@color/white_smoke"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginBottom="10dp"
+        android:background="#1F040404"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:text="@string/result"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/converted_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

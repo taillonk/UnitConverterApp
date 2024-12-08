@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Unit Converter App</string>
+
+    <!-- Strings for Home Fragment -->
+    <string name="title_home">Home</string>
+    <string name="text_home_intro">"Welcome!\n\n Please click the 'Convert' option below to get started. If you would like to review the instructions, please click the help button instead.\n\n\nNote: This app was developed by Kevin Sanchez Hernandez as the Final Project for IT 216 at Seattle Central College."</string>
+
+    <!-- Strings for Convert Fragment -->
+    <string name="title_converter">Convert</string>
+    <string name="text_converter_title">Let\'s Convert!</string>
+    <string name="text_converter_instruction1">Select a category:</string>
+    <string name="text_converter_instruction2">Select conversion type:</string>
+    <string name="text_converter_instruction3">Convert from:</string>
+    <string name="text_converter_instruction4">Convert to:</string>
+    <string name="text_converter_instruction5">Value to convert:</string>
+    <string name="convert_button">Convert</string>
+    <string name="reset_button">Reset</string>
+    <string name="result">Result:</string>
+
+    <string-array name="category_array">
+        <item>Category…</item>
+        <item>Length</item>
+        <item>Temperature</item>
+        <item>Weight</item>
+    </string-array>
+
+    <string-array name="length_array">
+        <item>Inches</item>
+        <item>Meters</item>
+        <item>Feet</item>
+    </string-array>
+
+    <string-array name="temp_array">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="weight_array">
+        <item>Grams</item>
+        <item>Pounds</item>
+        <item>Ounces</item>
+    </string-array>
+
+    <string-array name="spinner_placeholder">
+        <item>select a category to begin</item>
+    </string-array>
+
+    <!-- Strings for Help Fragment -->
+    <string name="title_help">Help</string>
+    <string name="text_help_title">Instructions</string>
+    <string name="text_help_intro">
+        1) Select the Unit Category. A list of available categories will appear in the category dropdown.\n\n
+        2) Select the unit you want to convert from. A list of available units will appear in the dropdown.\n\n
+        3) Select the unit you want to convert to. A list of available units will appear in the dropdown.\n\n
+        4) Enter the numerical value you want to convert into the designated input field.\n\n
+        5) Tap the "Convert!" button to perform the conversion.\n\n
+        6) The converted value will be displayed at the bottom of the screen.
+    </string>
+
+
+</resources>
