@@ -36,7 +36,7 @@
   <LI>The converted value will be displayed at the bottom of the screen.</LI>
 </UL>   
 
-<h2>Tech StacK:</h2>
+<h2>Tech Stack:</h2>
 <ul>
   <li>This app was developed in Java using Android Studio.</li>
 </ul>
