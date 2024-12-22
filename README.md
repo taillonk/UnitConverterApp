@@ -28,11 +28,11 @@
 
 <h2>Usage:</h2>
 <UL>
-  <LI>Select the Unit Category. A list of available categories will appear in the category dropdown.\n\n</LI>
-  <LI>Select the unit you want to convert from. A list of available units will appear in the dropdown.\n\n</LI>
-  <LI>Select the unit you want to convert to. A list of available units will appear in the dropdown.\n\n</LI>
-  <LI>Enter the numerical value you want to convert into the designated input field.\n\n</LI>
-  <LI>Tap the "Convert!" button to perform the conversion.\n\n</LI>
+  <LI>Select the Unit Category. A list of available categories will appear in the category dropdown.</LI>
+  <LI>Select the unit you want to convert from. A list of available units will appear in the dropdown.</LI>
+  <LI>Select the unit you want to convert to. A list of available units will appear in the dropdown.</LI>
+  <LI>Enter the numerical value you want to convert into the designated input field.</LI>
+  <LI>Tap the "Convert!" button to perform the conversion.</LI>
   <LI>The converted value will be displayed at the bottom of the screen.</LI>
 </UL>   
 
